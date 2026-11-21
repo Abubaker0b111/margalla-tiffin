@@ -14,7 +14,7 @@ All orders are **simulated**. No payment, no backend, and no personal details ar
 ## Links
 
 - GitHub: [View Repository](https://github.com/Abubaker0b111/margalla-tiffin)
-- Live site: 
+- Live site: [Click to View](https://margalla-tiffin.vercel.app/)
 - Final commit: View Report
 
 ## Commands
