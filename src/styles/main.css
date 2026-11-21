@@ -195,3 +195,19 @@ textarea { resize: vertical; }
 .cart-bar { position: sticky; bottom: 8px; display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 8px 16px; background: var(--white); border: 2px solid var(--green); border-radius: 12px; padding: 10px 14px; box-shadow: 0 4px 14px rgba(0, 0, 0, 0.15); }
 .cart-bar p { margin: 0; }
 .cart-bar-main { font-weight: 700; }
+
+/* ---------- Mobile ---------- */
+@media (max-width: 800px) {
+  .filters { grid-template-columns: 1fr; }
+  .detail-layout, .cart-layout { grid-template-columns: 1fr; }
+  .hero h1 { font-size: 1.8rem; }
+  h1 { font-size: 1.6rem; }
+  .cart-line { grid-template-columns: 70px 1fr; }
+  .cart-image, .image-fallback.cart-image { width: 70px; height: 60px; }
+  .cart-line-side { grid-column: 1 / -1; display: flex; justify-content: space-between; align-items: center; text-align: left; }
+  .cart-bar .btn { width: 100%; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * { scroll-behavior: auto !important; }
+}
